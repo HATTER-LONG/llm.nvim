@@ -32,11 +32,11 @@ function M.setup()
 
   vim.keymap.set("i", accept_keymap, accept_suggestion, { expr = true })
 
-  vim.keymap.set("n", accept_keymap, accept_suggestion, { expr = true })
+  -- vim.keymap.set("n", accept_keymap, accept_suggestion, { expr = true })
 
   vim.keymap.set("i", dismiss_keymap, dismiss_suggestion, { expr = true })
 
-  vim.keymap.set("n", dismiss_keymap, dismiss_suggestion, { expr = true })
+  -- vim.keymap.set("n", dismiss_keymap, dismiss_suggestion, { expr = true })
 
   M.setup_done = true
 end
